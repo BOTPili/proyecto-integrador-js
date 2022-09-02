@@ -1,5 +1,30 @@
 *{
-    padding: 0;
-    margin: 0;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
 }
 
+body{
+
+    background-size: cover;
+    background-image: url(../recursos/fondo.jpg);
+    
+}
+
+#contenedor{
+
+    position: relative;
+
+}
+
+#fondo{
+
+    width: 800px;
+    height: 500px;
+    background-color: white;
+    position: absolute;
+    margin-top: 5%;
+    left: 14.5%;
+    
+    
+}
