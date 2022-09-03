@@ -29,29 +29,38 @@ body{
 }
 
 .foto1{
+    position: relative;
     float: right;
     margin-right: 10px;
     margin-top: 10px;
 }
 
-.foto4{
 
+.foto4{
+    position: relative;
     float: left;
     margin-left: 10px;
     margin-top: 10px;
 }
 
 .foto3{
-
+    position: relative;
     float: left;
-    margin-top: -15px;
+    margin-top: 10px;
     margin-left: 10px;
     
 }
 
 .foto2{
+    position: relative;
     float: right;
     margin-right: 10px;
-    margin-top: -133.5px;
+    margin-top: -269px;    
 }
 
+.foto5{
+    position: relative;
+    float: right;
+    margin-right: 233px;
+    margin-top: 138px;
+}
