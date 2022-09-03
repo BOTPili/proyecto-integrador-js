@@ -1,39 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Proyecto Integrado Js</title>
-    <link href="/proyecto-integrador-js/css/estilos.css" rel="stylesheet">
-    <link href="./css/lightbox.css" rel="stylesheet">
- 
-</head>
-<body>
-
+    <link href="./css/estilos.css" rel="stylesheet" />
+    <link href="./css/lightbox.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <div id="contenedor">
-        <div id="fondo">
-            <div class="foto1">
-                <a data-lightbox="roadtrip" href="./images/foto1-grande.jpg"><img src="./images/foto1.jpg"></a>
-            </div>
-            <div class="foto4">
-                <a data-lightbox="roadtrip" href="./images/foto4-grande.jpg"><img src="./images/foto4.jpg"></a>
-            </div>         
-            <div class="foto5">
-                <a data-lightbox="roadtrip" href="./images/foto5-grande.jpg"><img src="./images/foto5.jpg"></a>
-            </div> 
-            <div class="foto3">
-                <a data-lightbox="roadtrip" href="./images/foto3-grande.jpg"><img src="./images/foto3.jpg"></a>
-            </div>
-            <div class="foto2">
-                <a data-lightbox="roadtrip" href="./images/foto2-grande.jpg"><img src="./images/foto2.jpg"></a>
-            </div>  
-                
+      <div id="fondo">
+        <h2>Elegí tu fondo favorito</h2>
+
+        <div id="botonesCambioFondo">
+          <button type="button" id="botonColorRojo">Rojo</button>
+          <button type="button" id="botonColorAmarillo">Amarillo</button>
+          <button type="button" id="botonColorA">azul</button>
         </div>
+
+        <button type="button" id="botonConoceMas">Conocé Más</button>
+
+        <div id="imagenes">
+          <div class="foto1">
+            <a data-lightbox="roadtrip" href="./images/foto1-grande.jpg"
+              ><img src="./images/foto1.jpg"
+            /></a>
+          </div>
+          <div class="foto4">
+            <a data-lightbox="roadtrip" href="./images/foto4-grande.jpg"
+              ><img src="./images/foto4.jpg"
+            /></a>
+          </div>
+          <div class="foto5">
+            <a data-lightbox="roadtrip" href="./images/foto5-grande.jpg"
+              ><img src="./images/foto5.jpg"
+            /></a>
+          </div>
+          <div class="foto3">
+            <a data-lightbox="roadtrip" href="./images/foto3-grande.jpg"
+              ><img src="./images/foto3.jpg"
+            /></a>
+          </div>
+          <div class="foto2">
+            <a data-lightbox="roadtrip" href="./images/foto2-grande.jpg"
+              ><img src="./images/foto2.jpg"
+            /></a>
+          </div>
+        </div>
+      </div>
     </div>
-    
-</body>
-<script src="./js/jquery-3.6.1.min.js"></script>
-<script src="./js/lightbox.js"></script>
-<script src="./js/js.js"></script>
+  </body>
+  <script src="./js/jquery-3.6.1.min.js"></script>
+  <script src="./js/lightbox.js"></script>
+  <script src="./js/js.js"></script>
 </html>

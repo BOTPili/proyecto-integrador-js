@@ -17,6 +17,18 @@ body{
 
 }
 
+#imagenes{
+    position: relative;
+}
+
+#botonConoceMas{
+
+    position: absolute;
+    margin-left: 46%;
+    margin-top: 37%;
+   
+}
+
 #fondo{
 
     width: 800px;
@@ -34,7 +46,6 @@ body{
     margin-right: 10px;
     margin-top: 10px;
 }
-
 
 .foto4{
     position: relative;
@@ -63,4 +74,38 @@ body{
     float: right;
     margin-right: 233px;
     margin-top: 138px;
+}
+
+.foto1:hover,.foto2:hover,.foto3:hover,.foto4:hover,.foto5:hover{
+
+    background-color: black;
+    transform: scale(1.1);
+    transition: 250ms;
+    z-index: 10;
+
+}
+
+h2{
+    position: absolute;
+    margin-top: 26%;
+    margin-left: 39%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+
+#botonesCambioFondo{
+    
+    position: absolute;
+    margin-left: 42%;
+    margin-top: 31%;
+   
+}
+
+button{
+
+    font-family: 'Montserrat', sans-serif;
+    background: none;
+    border-radius: 5px;
+    padding: 5px;
+    border-color: rgb(207, 207, 207);
 }
