@@ -97,37 +97,48 @@ h2{
 #botonesCambioFondo{
     
     position: absolute;
-    margin-left: 38%;
-    margin-top: 31%;
-   
+    margin-left: 44.75%;
+    margin-top: 30%;
+    width: 120px;
+    height: 45px;
+    
+      
+}
+.boton{
+    float: left;
+    width:50px;
+    height: 15px;
+    margin: 4px;
+    font-size: 1px;
 }
 
 button{
 
     font-family: 'Montserrat', sans-serif;
     background: none;
+    
     border-radius: 5px;
     padding: 5px;
     border-color: rgb(207, 207, 207);
 }
 #botonColorRojo{
-    background-color: red;
-    color: red;
-    padding: 6px 15px ;
+    background-color: rgb(203, 32, 32);
+    color: rgb(203, 32, 32);
+    
     
 }
 #botonColorAmarillo{
     background-color: rgb(255, 187, 0);
     color: rgb(255, 187, 0);
-    padding: 6px 5px ;
+    
 }
 #botonColorAzul{
     background-color: rgb(17, 70, 246);
     color: rgb(17, 70, 246);
-    padding: 6px 12px ;
+    
 }
 #botonColorBlanco{
     background-color: white;
     color: white;
-    padding: 6px 8px ;
+    
 }
