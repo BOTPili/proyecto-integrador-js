@@ -115,11 +115,15 @@ h2{
 button{
 
     font-family: 'Montserrat', sans-serif;
-    background: none;
-    
-    border-radius: 5px;
+    background: none;   
+    box-shadow: 3px 3px 1px rgba(0, 0, 0, 0.281);
+    border-radius: 10px 20px;
     padding: 5px;
-    border-color: rgb(207, 207, 207);
+    border-color: rgba(0, 0, 0, 0.039);
+    transition: all .3s;
+}
+button:hover{
+    box-shadow: 6px 6px 1px rgba(0, 0, 0, 0.281);
 }
 #botonColorRojo{
     background-color: rgb(203, 32, 32);
