@@ -113,16 +113,21 @@ button{
 #botonColorRojo{
     background-color: red;
     color: red;
+    padding: 6px 15px ;
+    
 }
 #botonColorAmarillo{
     background-color: rgb(255, 187, 0);
     color: rgb(255, 187, 0);
+    padding: 6px 5px ;
 }
 #botonColorAzul{
     background-color: rgb(17, 70, 246);
     color: rgb(17, 70, 246);
+    padding: 6px 12px ;
 }
 #botonColorBlanco{
     background-color: white;
     color: white;
+    padding: 6px 8px ;
 }
