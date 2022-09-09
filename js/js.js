@@ -3,9 +3,9 @@ $(function(){
     $('#botonConoceMas').click(function(){
 
       if(boton==false){
-        $('.foto4').fadeOut(1200);
+        $('.foto4').fadeOut(1100);
         $('.foto1').fadeOut(900);
-        $('.foto5').fadeOut(600);
+        $('.foto5').fadeOut(500);
         $('.foto3').fadeOut(300);
         $('.foto2').fadeOut();
         boton = true;
@@ -14,7 +14,7 @@ $(function(){
           $('.foto2').fadeIn(300);
           $('.foto5').fadeIn(600);
           $('.foto3').fadeIn(900);
-          $('.foto4').fadeIn(1200);
+          $('.foto4').fadeIn(1100);
           boton = false;
           
       }

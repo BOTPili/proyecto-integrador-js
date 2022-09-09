@@ -50,18 +50,6 @@ body{
     
 }
 
-.textoFoto1{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 12px;
-    position: absolute;
-    margin-left: 280px;
-    margin-top: 40px;
-    height: 120px;
-    width: 498px;
-    background-color: rgba(128, 128, 128, 0.142);
-    box-shadow: 3px 3px 1px rgba(0, 0, 0, 0.250);
-
-}
 
 
 .foto4{
@@ -162,4 +150,55 @@ button:hover{
     background-color: white;
     color: white;
     
+}
+
+.textoFoto1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    position: absolute;
+    margin-left: 280px;
+    margin-top: 40px;
+    height: 120px;
+    width: 498px;
+    text-align: justify;
+    background-color: rgba(128, 128, 128, 0.142);
+    box-shadow: 3px 3px 1px rgba(0, 0, 0, 0.250);
+
+}
+
+.textoFoto2{
+    position: absolute;
+    margin-left:30px;
+    margin-top: 30px;
+    width: 200px;
+    text-align: justify;
+    background-color: rgba(128, 128, 128, 0.142);
+    box-shadow: 3px 3px 1px rgba(0, 0, 0, 0.250);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+}
+
+
+.textoFoto3{
+    position: absolute;
+    margin-left:15px;
+    margin-top: 360px;
+    width: 255px;
+    text-align: justify;
+    background-color: rgba(128, 128, 128, 0.142);
+    box-shadow: 3px 3px 1px rgba(0, 0, 0, 0.250);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+}
+
+.textoFoto4{
+    position: absolute;
+    margin-left:308px;
+    margin-top: 365px;
+    width: 255px;
+    text-align: justify;
+    background-color: rgba(128, 128, 128, 0.142);
+    box-shadow: 3px 3px 1px rgba(0, 0, 0, 0.250);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
 }
