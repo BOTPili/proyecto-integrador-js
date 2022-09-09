@@ -202,3 +202,15 @@ button:hover{
     font-family: 'Montserrat', sans-serif;
     font-size: 12px;
 }
+
+.textoFoto5{
+    position: absolute;
+    margin-left:600px;
+    margin-top: 235px;
+    width: 180px;
+    text-align: justify;
+    background-color: rgba(128, 128, 128, 0.142);
+    box-shadow: 3px 3px 1px rgba(0, 0, 0, 0.250);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+}
