@@ -1,6 +1,24 @@
+let boton = false;
 $(function(){
     $('#botonConoceMas').click(function(){
-      $('#imagenes').toggle();
+
+      if(boton==false){
+        $('.foto4').fadeOut(1200);
+        $('.foto1').fadeOut(900);
+        $('.foto5').fadeOut(600);
+        $('.foto3').fadeOut(300);
+        $('.foto2').fadeOut();
+        boton = true;
+      }else{
+          $('.foto1').fadeIn();
+          $('.foto2').fadeIn(300);
+          $('.foto5').fadeIn(600);
+          $('.foto3').fadeIn(900);
+          $('.foto4').fadeIn(1200);
+          boton = false;
+          
+      }
+      
     });
   })
 
